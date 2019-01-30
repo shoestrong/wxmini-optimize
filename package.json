@@ -1,0 +1,41 @@
+{
+  "name": "wxmini-optimize",
+  "version": "1.0.0",
+  "description": "微信小程序代码压缩与优化",
+  "main": "gulpfile.js",
+  "scripts": {
+    "clean": "gulp clean --silent",
+    "dev": "gulp watch --silent",
+    "build": "gulp prod --silent"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jslint": "^1.0.5",
+    "gulp-jsonminify": "^1.0.0",
+    "gulp-logger": "0.0.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglyfly": "^1.4.2",
+    "pump": "^1.0.1",
+    "uglify-js": "^2.7.4",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "gulp-babel": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoestrong/wxmini-optimize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoestrong/wxmini-optimize/issues"
+  },
+  "homepage": "https://github.com/shoestrong/wxmini-optimize#readme"
+}
